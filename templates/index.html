@@ -199,12 +199,33 @@
         }
         footer p { margin-bottom: 5px; font-size: 1em; } /* Reset margin for footer paragraphs */
 
+        /* Placeholder style for AdSense units - you can remove this later */
+        .adsense-placeholder {
+            background-color: #f0f0f0;
+            border: 1px dashed #ccc;
+            min-height: 90px; /* Adjust as per common ad sizes like 728x90 or 300x250 */
+            margin: 20px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #777;
+            font-size: 0.9em;
+            width: 100%; /* Can be adjusted to specific ad unit width */
+            max-width: 728px; /* Example for leaderboard */
+        }
+
     </style>
 </head>
 <body>
-    <div class="main-content-wrapper"> {/* New wrapper */}
+    <div class="main-content-wrapper">
         <div class="container">
-            <h1>ReelMP3.com <small>Your Fast Video to Audio Converter</small></h1>
+
+            <!-- AdSense Placeholder 1: Above Content -->
+            <div class="adsense-placeholder">
+                Google AdSense Unit (e.g., Leaderboard 728x90 or Responsive) - Replace this div with AdSense code
+            </div>
+
+            <h1>ReelMP3.in <small>Your Fast Video to Audio Converter</small></h1>
             <p class="intro-text">Easily convert your videos, including Instagram clips, to high-quality MP3 audio. Upload your video and get your audio file in seconds!</p>
 
             <form id="uploadForm" method="POST" enctype="multipart/form-data">
@@ -229,9 +250,14 @@
             </form>
             <div id="downloadLinkContainer" style="margin-top: 20px;"></div>
 
+            <!-- AdSense Placeholder 2: Below Form, Before Blog -->
+            <div class="adsense-placeholder" style="min-height: 250px; max-width: 300px;"> <!-- Example for a 300x250 unit -->
+                Google AdSense Unit (e.g., Medium Rectangle 300x250 or Responsive) - Replace this div with AdSense code
+            </div>
+
             <div class="blog-section">
                 <h2>Unlock Audio: Convert Video to MP3, Including Instagram Reels & Videos</h2>
-                <p>In today's digital age, video content is king. From informative YouTube tutorials to captivating Instagram Reels, we consume videos daily. But what if you only need the audio? Perhaps it's a song from a music video, a lecture you want to listen to on your commute, or the sound from a memorable Instagram Story. That's where ReelMP3.com comes in!</p>
+                <p>In today's digital age, video content is king. From informative YouTube tutorials to captivating Instagram Reels, we consume videos daily. But what if you only need the audio? Perhaps it's a song from a music video, a lecture you want to listen to on your commute, or the sound from a memorable Instagram Story. That's where ReelMP3.in comes in!</p>
 
                 <h3>Why Convert Video to Audio?</h3>
                 <ul>
@@ -242,31 +268,31 @@
                     <li><strong>Focus:</strong> Sometimes, you just want to focus on the audio content without visual distractions.</li>
                 </ul>
 
-                <h3>Converting Instagram Videos to Audio with ReelMP3.com</h3>
-                <p>Instagram is a treasure trove of short, engaging videos. If you've saved an Instagram video or Reel to your device and want its audio as an MP3, ReelMP3.com makes it simple:</p>
+                <h3>Converting Instagram Videos to Audio with ReelMP3.in</h3>
+                <p>Instagram is a treasure trove of short, engaging videos. If you've saved an Instagram video or Reel to your device and want its audio as an MP3, ReelMP3.in makes it simple:</p>
                 <ol>
-                    <li><strong>Save the Instagram Video:</strong> First, you'll need to have the Instagram video file saved on your computer or mobile device. (Note: ReelMP3.com processes video files you upload; it does not download directly from Instagram URLs).</li>
-                    <li><strong>Upload to ReelMP3.com:</strong> Use our easy uploader above to select your saved Instagram video file.</li>
+                    <li><strong>Save the Instagram Video:</strong> First, you'll need to have the Instagram video file saved on your computer or mobile device. (Note: ReelMP3.in processes video files you upload; it does not download directly from Instagram URLs).</li>
+                    <li><strong>Upload to ReelMP3.in:</strong> Use our easy uploader above to select your saved Instagram video file.</li>
                     <li><strong>Convert & Download:</strong> Click "Convert to MP3," and we'll quickly process the video and provide you with a high-quality MP3 audio file to download.</li>
                 </ol>
                 <p>It's that easy to get the audio from your favorite Instagram moments, music discoveries, or important clips!</p>
 
-                <h3>How ReelMP3.com Works for Any Video</h3>
+                <h3>How ReelMP3.in Works for Any Video</h3>
                 <p>Our tool isn't just for Instagram videos! You can convert a wide range of video file formats (like MP4, MOV, AVI, WEBM, etc.) to MP3:</p>
                 <ol>
                     <li><strong>Upload Your Video:</strong> Drag and drop your video file or click to browse and select it from your device.</li>
                     <li><strong>Automatic Conversion:</strong> Our system intelligently processes your video and extracts the audio track.</li>
                     <li><strong>Download MP3:</strong> Once complete, your MP3 audio file will be ready for instant download.</li>
                 </ol>
-                <p>ReelMP3.com is designed to be fast, free, and user-friendly, requiring no software installation or complicated steps. Get started today and transform your videos into versatile audio files!</p>
+                <p>ReelMP3.in is designed to be fast, free, and user-friendly, requiring no software installation or complicated steps. Get started today and transform your videos into versatile audio files!</p>
             </div>
-        </div> {/* End of .container */}
+        </div>
 
-        <footer> {/* Footer is now outside the white container, on the purple background */}
-            <p>© <span id="currentYear"></span> ReelMP3.com - All Rights Reserved.</p>
+        <footer>
+            <p>© <span id="currentYear"></span> ReelMP3.in - All Rights Reserved.</p>
             <p>Created by Pradeep Chand Punuri</p>
         </footer>
-    </div> {/* End of .main-content-wrapper */}
+    </div>
 
 
     <script>
