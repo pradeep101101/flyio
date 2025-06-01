@@ -1,0 +1,20 @@
+# .dockerignore
+
+# Git specific
+.git
+.gitignore
+
+# Replit specific files to ignore
+replit.nix
+.replit
+
+# Python specific
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# Fly.io specific (if generated locally, don't include in Docker image)
+# fly.toml # You can comment this out or remove it if you decide to commit fly.toml later
